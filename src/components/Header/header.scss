@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+
+        color: var(--text-primary)
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+
+        color: var(--text-test)
+    }
+
+    img {
+        border-radius: 24px;
+        object-fit: cover;
+    }
+
+    @media(min-width: 768px) {
+        flex-direction: row-reverse;
+        align-items: center;
+
+        h1 {
+            font-size: 36px;
+            line-height: 54px;
+        }
+
+        h2 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+
+        img {
+            border-radius: 400px;
+            border: 1px var(--wine);
+        }
+    }
+}

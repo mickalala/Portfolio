@@ -1,9 +1,10 @@
 :root {
---text-primary:#ff9bbc;
---text-secondary:#3f0b09;
---background:#90827a;
---white:#fffaf2;
---soft-yellow:#ffe66c;
+  --text-primary: #fffaf2;
+  --text-secondary: #66615d;
+  --text-test: #ff9bbc;
+  --wine: #3f0b09;
+  --soft-yellow: #ffe66c;
+  --background-2: #323130;
 }
 
 * {
@@ -18,6 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-body{
-  background-color: var(--background);
+body {
+  background-color: var(--background-2);
 }
