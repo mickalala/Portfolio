@@ -1,3 +1,26 @@
-.container{
-    padding: 40px 32px ;
+.container {
+    padding: 40px 32px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "header"
+        "buttons"
+        "experience"
+        "infos"
+    ;
+    justify-items: center;
+    align-items: center;
+    gap:24px;
+}
+
+@media(min-width:780px) {
+    .container {
+        grid-template-areas:
+        "header infos"
+        "experience buttons";
+        justify-items: start;
+        align-items: center;
+        gap:30px;
+    }
+
 }

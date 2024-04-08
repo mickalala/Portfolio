@@ -1,13 +1,19 @@
 import { Header } from "@/components/Header/header";
 import "../styles/home.scss"
+import { Experience } from "@/components/Experience/experience";
 
 export default function Home() {
   return (
     <main className="container" >
       <Header />
-      <h2>Contato</h2>
-      <h2>descriçao</h2>
-      <h2>educação</h2>
+      <Experience />
+      <div>
+        <h2>Contato</h2>
+      </div>
+      <div>
+        <h2>Infos</h2>
+      </div>
+      {/* área de links para projetos? */}
     </main>
   );
 }
