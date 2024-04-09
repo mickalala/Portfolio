@@ -1,0 +1,21 @@
+.socialButtons {
+    display: flex;
+    grid-area: buttons;
+    align-items: center;
+    gap: 20px;
+
+    a {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        cursor:pointer;
+
+        border: 2px solid var(--text-test);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
