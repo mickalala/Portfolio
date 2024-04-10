@@ -14,14 +14,43 @@
         border: 1px solid var(--wine);
 
         text-align: center;
-        color: var(--text-primary);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         font-size: 23px;
-        background-color: var(--text-test);
 
-        .experience-measure {}
+        .experience-measure {
+            width: 350px;
+            height: 50px;
+            background-color: var(--text-test);
+            border-radius: 25px;
+            animation: progress 4s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
+            p {
+                animation: show 5s ease;
+            }
+        }
+
+        @keyframes progress {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        @keyframes show {
+            0% {
+                color: transparent;
+            }
+
+            100% {
+
+                color: var(--text-primary);
+
+            }
+        }
     }
 }

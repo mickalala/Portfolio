@@ -11,7 +11,7 @@ export function Skills({ language, img }: Readonly<SkillProps>) {
             <img src={img} alt="javaScript logo" />
             <div className="experience-div">
                 <div className="experience-measure">
-                    {language}
+                    <p>{language}</p>
                 </div>
             </div>
         </div>
