@@ -43,10 +43,15 @@
 
         @keyframes show {
             0% {
-                color: transparent;
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0;
             }
 
             100% {
+                opacity: 1;
                 color: var(--text-primary);
             }
         }

@@ -11,9 +11,9 @@ export function Experience() {
                 my principal languge is JavaScript, i do use frameworks as
                 React, Nest.
             </p>
-            <Skills language="javaScript" img="/js.png" years={1} />
+            <Skills language="JavaScript" img="/js.png" years={1} />
             <Skills language="React" img="/react.png" years={1} />
-            <Skills language="typeScript" img="/ts.png" years={1} />
+            <Skills language="TypeScript" img="/ts.png" years={1} />
         </div>
 
     )
