@@ -1,17 +1,7 @@
 .experience {
     grid-area: experience;
-    h2 {
-        color: var(--text-test);
-        font-size: 20px;
-        line-height: 27px;
-    }
-
 
     @media(min-width:780px) {
-        h2 {
-            font-size: 27px;
-            line-height: 36px;
-        }
 
         p {
             font-size: 24px;

@@ -1,3 +1,6 @@
 .infos{
     grid-area: infos;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
