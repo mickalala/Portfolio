@@ -1,11 +1,12 @@
 .experience {
     grid-area: experience;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 
-    @media(min-width:780px) {
-
-        p {
-            font-size: 24px;
-            line-height: 36px;
-        }
+    @media (min-width: 768px) {
+        align-items: flex-start;
     }
+
 }
